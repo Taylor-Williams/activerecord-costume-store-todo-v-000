@@ -7,9 +7,9 @@ class CreateCostumeStores
       t.string :location
       t.integer :costume_inventory
       t.integer :number_employees
-      whether or not it's still in business
-      opening time
-      closing time
+      t.boolean :in_business
+      t.float :opening_time
+      t.float :closing_time
     end
   end
 end
