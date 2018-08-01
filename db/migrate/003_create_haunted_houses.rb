@@ -9,9 +9,10 @@ class CreateHauntedHouses<ActiveRecord::Migration[5.2]
       t.float :price
       t.integer :costume_inventory
       t.integer :number_employees
-      t.boolean :in_business
+      t.boolean :family_friendly
       t.datetime :opening_date
       t.datetime :closing_date
+      t.text :long_description
       t.timestamps
     end
   end
