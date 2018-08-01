@@ -10,6 +10,7 @@ class CreateCostumeStores
       t.boolean :in_business
       t.float :opening_time
       t.float :closing_time
+      t.timestamps
     end
   end
 end
